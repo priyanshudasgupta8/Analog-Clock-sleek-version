@@ -55,14 +55,8 @@ function draw(){
     strokeWeight(10);
     noFill();
     //Seconds
-    stroke("#E84C3D");
-    arc(0,0,300,300,0,scAngle);
-    //Minutes
-    stroke("lightgreen");
-    arc(0,0,280,280,0,mnAngle);
-    //Hour
-    stroke("skyblue");
-    arc(0,0,260,260,0,hrAngle);
+    stroke(255);
+    arc(0,0,260,260,0,360);
 
     fill("#E84C3D");
     noStroke();
